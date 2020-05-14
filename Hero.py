@@ -43,6 +43,6 @@ if len(warriors1) > len(warriors2):
 else:
     Nirvana.lvl_up()
     print(f'Nirvana\'s level has grown up to: {Nirvana.level}xp')
-    warriors1[2].follow_hero(Nirvana)
+    warriors2[1].follow_hero(Nirvana)
 
 
